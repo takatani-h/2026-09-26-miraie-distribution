@@ -1,0 +1,36 @@
+# OS が生成するファイル
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Windows・WSL 間のファイル転送で残るダウンロード元情報
+*:Zone.Identifier
+*:Zone.Identifier:$DATA
+*.Zone.Identifier
+
+# エディターの設定・一時ファイル
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ローカル環境変数（共有用のサンプルは管理する）
+.env
+.env.*
+!.env.example
+
+# ログ
+*.log
+
+# Node.js の依存関係・キャッシュ
+node_modules/
+.npm/
+.cache/
+
+# Jekyll の生成物・キャッシュ
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
